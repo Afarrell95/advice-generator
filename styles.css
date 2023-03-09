@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    
+}
+
+.main-container{
+    margin: auto;
+    width: 40%;
+}
+
+.advice-container{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+}
+
+.advice__number{
+    color:hsl(150, 100%, 66%);
+}
+
+.advice__text{
+    color: hsl(193, 38%, 86%);
+}
