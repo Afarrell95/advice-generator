@@ -20,3 +20,11 @@ function getFetch() {
 }
 
 getFetch();
+
+function refreshPage() {
+  window.location.reload();
+}
+
+let button = document.querySelector(".circle");
+
+button.addEventListener("click", refreshPage);
