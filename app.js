@@ -1,3 +1,5 @@
+let button = document.querySelector(".circle");
+
 function getFetch() {
   const url = `	https://api.adviceslip.com/advice`;
   fetch(url)
@@ -24,7 +26,5 @@ getFetch();
 function refreshPage() {
   window.location.reload();
 }
-
-let button = document.querySelector(".circle");
 
 button.addEventListener("click", refreshPage);
